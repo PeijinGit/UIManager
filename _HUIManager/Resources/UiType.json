@@ -1,0 +1,22 @@
+{
+
+  "PanelInfoList": [
+    {
+      "PanelName": "FirstPanel",
+      "PanelPath": "Panel/FirstPanel"
+    },
+    {
+      "PanelName": "SecondPanel",
+      "PanelPath": "Panel/SecondPanel"
+    },
+    {
+      "PanelName": "ThirdInfoPanel",
+      "PanelPath": "Panel/ThirdInfoPanel"
+    },
+    {
+      "PanelName": "ThirdFurPanel",
+      "PanelPath": "Panel/ThirdFurPanel"
+    }
+
+  ]
+}
