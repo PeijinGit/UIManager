@@ -17,16 +17,16 @@ public class SecondPanel : MyBasePanel
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    public void infoPanel() 
+    public void infoPanel()
     {
         //print("enter INFOR");
-        if (infoPStat == true) 
+        if (infoPStat == true)
         {
-        
+
         }
-        else 
+        else
         {
             print("enter ELSE INFOR");
             uiManager.OffPanel();
@@ -34,7 +34,7 @@ public class SecondPanel : MyBasePanel
             infoPStat = true;
             furPStat = false;
         }
-        
+
     }
     public void furPanel()
     {
@@ -53,5 +53,17 @@ public class SecondPanel : MyBasePanel
             infoPStat = false;
         }
 
+    }
+    public override void OnEnter()
+    {
+        base.OnEnter();
+         infoPStat = true;
+         furPStat = false;
+    }
+    public override void OnExit()
+    {
+        base.OnExit();
+         infoPStat = false;
+         furPStat = false;
     }
 }
